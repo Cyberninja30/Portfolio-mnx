@@ -1,5 +1,5 @@
 
-<h1 align="center">🧠 Moinak's Developer Terminal Portfolio 🚀</h1>
+<h1 align="center">🧠 🔍 Root@Moinak:~/DevJourney 🚀</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-Developer-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
