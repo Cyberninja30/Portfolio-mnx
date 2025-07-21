@@ -1,0 +1,27 @@
+.connect-section {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid var(--terminal-border);
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  
+  .social-links a {
+    color: var(--terminal-accent);
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: var(--terminal-text);
+    text-shadow: 0 0 10px var(--terminal-text);
+    transform: translateY(-2px);
+  }
+  

@@ -1,0 +1,22 @@
+.certification-item {
+    border-left: 2px solid var(--terminal-accent);
+    padding-left: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .certification-title {
+    font-weight: 600;
+    color: var(--terminal-accent);
+    margin-bottom: 5px;
+  }
+  
+  .certification-org {
+    font-size: 0.85rem;
+    color: var(--terminal-muted);
+  }
+  
+  .certification-date {
+    font-size: 0.8rem;
+    color: var(--terminal-secondary);
+  }
+  
