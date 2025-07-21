@@ -81,7 +81,7 @@ npm install
 npm run dev
 ```
 
-> 🔗 Visit: `http://localhost:5173` in your browser
+> 🔗 Visit: `('moinakone.vercel.app') in your browser
 
 ---
 
@@ -90,8 +90,6 @@ npm run dev
 Easily deploy on any modern platform:
 
 - ⚙️ **Vercel**
-- 🌍 **Netlify**
-- 🧱 **GitHub Pages**
 
 ```bash
 npm run build
@@ -103,7 +101,7 @@ npm run build
 ## 🧠 Author
 
 **Moinak Niyogi**  
-💼 Full Stack Developer | Cybersecurity Enthusiast | Open Source Contributor
+Cybersecurity Enthusiast | Open Source Contributor | Technical Writer
 
 - 🐙 [GitHub](https://github.com/Cyberninja30)
 - 👔 [LinkedIn](https://www.linkedin.com/in/moinak-niyogi/)
