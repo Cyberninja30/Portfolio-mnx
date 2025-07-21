@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/Built%20With-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" />
   <img src="https://img.shields.io/badge/Portfolio-Live-green?style=for-the-badge" />
 </p>
+![Terminal Preview](./public/portfolio-img-sample.png)
 
 > ⚡️ Terminal-themed, developer-centric, ultra-modern personal portfolio built with React + Tailwind.  
 > Designed to **impress**, **perform**, and **stand out**.
