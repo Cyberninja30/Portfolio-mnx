@@ -81,7 +81,7 @@ npm install
 npm run dev
 ```
 
-> 🔗 Visit: `('moinakone.vercel.app') in your browser
+> 🔗 Visit: `moinakone.vercel.app` in your browser
 
 ---
 
