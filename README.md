@@ -7,6 +7,13 @@
   <img src="https://img.shields.io/badge/Portfolio-Live-green?style=for-the-badge" />
 </p>
 
+## 📸 Preview
+
+<p align="center">
+  <img src="./portfolio-img-sample.png" width="90%" alt="Portfolio Preview" />
+</p>
+
+
 > ⚡️ Terminal-themed, developer-centric, ultra-modern personal portfolio built with React + Tailwind.  
 > Designed to **impress**, **perform**, and **stand out**.
 
