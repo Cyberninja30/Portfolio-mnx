@@ -1,4 +1,4 @@
-```markdown
+
 <h1 align="center">🧠 Moinak's Developer Terminal Portfolio 🚀</h1>
 
 <p align="center">
