@@ -1,12 +1,86 @@
-# React + Vite
+```markdown
+# 🚀 Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This is a developer-themed, terminal-styled, fully responsive portfolio that highlights my journey, achievements, and certifications in an interactive format.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 📅 **Timeline Section** – Showcases my developer journey year-wise.
+- 📰 **Life Updates** – Displays recent achievements and certifications.
+- 🎨 **Modern UI** – Built with React + TailwindCSS for responsiveness and clarity.
+- 🧱 **Component-Based** – Clean, modular React components for scalability.
+- 🖥️ **Terminal Aesthetic** – Developer-inspired terminal design theme.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **Framework**: React.js
+- **Styling**: TailwindCSS
+- **Languages**: JavaScript (JSX), HTML
+- **Version Control**: Git & GitHub
+- **Deployment**: GitHub Pages / Vercel / Netlify
+
+---
+
+## 📁 Folder Structure
+
+```
+my-portfolio/
+├── public/
+│   └── assets/           # Icons, logos, and static files
+├── src/
+│   ├── components/       # Timeline, LifeUpdates, etc.
+│   ├── styles/           # Custom styles and Tailwind setup
+│   ├── App.jsx
+│   └── main.jsx
+├── tailwind.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/Cyberninja30/Portfolio-mnx.git
+cd my-portfolio
+npm install
+npm run dev
+```
+
+Visit `http://localhost:5173` (or the port mentioned in the terminal) to view the app.
+
+---
+
+## 📦 Deployment
+
+### Deploy Using GitHub Pages:
+
+```bash
+npm run build
+```
+
+Use `gh-pages` package or manually deploy the contents of the `dist/` folder.
+
+### Or Use:
+
+- [Netlify](https://netlify.com)
+- [Vercel](https://vercel.com)
+
+---
+
+## 👨‍💻 Author
+
+**Moinak Niyogi**  
+🔗 [GitHub](https://github.com/Cyberninja30) • [LinkedIn](https://www.linkedin.com/in/moinak-niyogi/)  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. Feel free to use and modify with attribution.
+```
