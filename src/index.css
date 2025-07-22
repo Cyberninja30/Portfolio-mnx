@@ -359,12 +359,13 @@ body {
 }
 
 .profile-image {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   border: 2px solid var(--terminal-accent);
   flex-shrink: 0;
-  animation: profile-glow 3s ease-in-out infinite alternate;
+  animation: profile-glow 1s ease-in-out infinite alternate;
+  margin-left: -60px;
 }
 
 @keyframes profile-glow {
