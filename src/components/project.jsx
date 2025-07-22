@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 const Projects = () => {
- const projects = {
+  const projects = {
     '2022': [
       ['NetProbe – Networking Simulation Toolkit', 'A hands-on networking simulator to enhance networking skills via problem-solving and lab automation. Tech stack: Cisco Packet Tracer, advanced web tools (HTML/CSS/JS), and automation logic.'],
       ['Miss Robot – 403 Forbidden Bypass Tool', 'A penetration testing utility to bypass restricted directories using logic-based automation. Tech stack: Python, Bash, HTTP header manipulation, and directory fuzzing.'],
@@ -18,27 +18,27 @@ const Projects = () => {
     ]
   };
 
-    return (
-
-      <section id="projects">
-       <div class="right">
+  return (
+    <section id="projects">
+      <div className="right">
         <h2 className="section-title glitch-text" data-text="Projects">Projects</h2>
         <div className="section-underline">=========</div>
-        </div>
-        <div className="timeline-section">
-          {projects.map(([year, title, desc]) => (
-            <div key={year} className="timeline-item">
-              <span className="timeline-date">{year}</span>
-              <div className="timeline-content">
+      </div>
+      <div className="timeline-section">
+        {Object.entries(projects).map(([year, entries]) => (
+          <div key={year} className="year-block">
+            <h3 className="timeline-date">{year}</h3>
+            {entries.map(([title, desc], idx) => (
+              <div key={idx} className="timeline-item">
                 <div className="timeline-title">{title}</div>
                 <div className="timeline-description">{desc}</div>
               </div>
-            </div>
-          ))}
-        </div>
-      </section>
-    );
-  };
-  
-  export default Projects;
-  
+            ))}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default Projects;
