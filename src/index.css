@@ -332,20 +332,20 @@ body {
 }
 
 .section-title {
-  text-align: left; 
+  text-align: center; 
   color: var(--terminal-secondary);
   font-weight: 600;
   font-size: 1.1rem;
   margin-bottom: 5px;
   text-transform: uppercase; 
-  margin-left:-5vh;
+  margin-left: -8vh;
 }
 
 .section-underline {
   color: var(--terminal-text);
   font-weight: 400;
   margin-bottom: 20px;
-  margin-left: -5vh;
+  margin-left: -8vh;
 }
 
 .profile-section {
@@ -401,6 +401,7 @@ body {
 .timeline-section {
   margin-bottom: 40px;
   margin-left: -2vh;
+  text-align: left;
 }
 
 .timeline-item {
