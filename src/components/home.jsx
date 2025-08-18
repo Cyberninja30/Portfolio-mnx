@@ -168,7 +168,7 @@ const Home = () => {
               <p>Secretary & RD Lead @<strong className="pulse-glow">Association for Cyber Security</strong></p>
               <p>Mentor @<strong className="pulse-glow">Albus Security</strong></p>
               <p>Ex-Research Intern <strong className="pulse-glow">@IIIT Kalyani</strong></p>
-              <p>Technical Writer @<strong className="pulse-glow">Stello.ai</strong> </p>
+              <p>Content Writer @<strong className="pulse-glow">Entrelogy Business School</strong> </p>
               <p>Software Engineering Fellow @<strong className="pulse-glow">Headstarter.ai</strong></p>
             </div>
           </div>
