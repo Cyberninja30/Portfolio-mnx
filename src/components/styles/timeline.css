@@ -1,0 +1,45 @@
+.timeline-section {
+    margin-bottom: 40px;
+    margin-left: -2vh;
+  }
+  
+  .timeline-item {
+    margin-bottom: 30px;
+    padding-left: 0;
+    transition: transform 0.3s ease;
+  }
+  
+  .timeline-item:hover {
+    transform: translateX(10px);
+  }
+  
+  .timeline-date {
+    color: var(--terminal-text);
+    font-weight: 600;
+    display: inline-block;
+    width: 120px;
+  }
+  
+  .timeline-content {
+    display: inline-block;
+    width: calc(100% - 140px);
+  }
+  
+  .timeline-title {
+    color: var(--terminal-accent);
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+  }
+  
+  .timeline-title:hover {
+    text-shadow: 0 0 10px var(--terminal-accent);
+  }
+  
+  .timeline-description {
+    color: var(--terminal-secondary);
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --terminal-bg: #0a0a0a;
+  --terminal-text: #00ff41;
+  --terminal-secondary: #ffffff;
+  --terminal-accent: #00d4aa;
+  --terminal-muted: #888888;
+  --terminal-border: #333333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  background-color: var(--terminal-bg);
+  color: var(--terminal-text);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Matrix Rain Background, Floating Code, Terminal Grid */
+.matrix-rain { /* ... */ }
+.matrix-column { /* ... */ }
+@keyframes matrix-fall { /* ... */ }
+
+.floating-code { /* ... */ }
+@keyframes float-code { /* ... */ }
+
+.terminal-grid { /* ... */ }
+@keyframes grid-move { /* ... */ }
+
+/* System Status */
+.system-status { /* ... */ }
+.status-line { /* ... */ }
+.status-indicator, .status-online, .status-warning, .status-error { /* ... */ }
+@keyframes pulse-dot { /* ... */ }
+
+/* Scanlines */
+.scanlines { /* ... */ }
+@keyframes scanlines { /* ... */ }
+
+/* Typing cursor */
+.terminal-cursor::after { /* ... */ }
+
+/* Glitch text */
+.glitch-text, .glitch-text::before, .glitch-text::after { /* ... */ }
+@keyframes glitch-1 { /* ... */ }
+@keyframes glitch-2 { /* ... */ }
+
+/* Terminal layout shared */
+.terminal-container { /* ... */ }
+.terminal-header { /* ... */ }
+.terminal-prompt { /* ... */ }
+.terminal-nav { /* ... */ }
+.terminal-nav a { /* ... */ }
+.terminal-nav a::before { /* ... */ }
+
+/* Scrollbar Styling */
+::-webkit-scrollbar { /* ... */ }
+::-webkit-scrollbar-track { /* ... */ }
+::-webkit-scrollbar-thumb { /* ... */ }
+::-webkit-scrollbar-thumb:hover { /* ... */ }
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .terminal-container { /* ... */ }
+  .terminal-nav { /* ... */ }
+  .system-status { /* ... */ }
+}
