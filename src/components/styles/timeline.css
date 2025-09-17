@@ -1,45 +1,70 @@
 .timeline-section {
-    margin-bottom: 40px;
-    margin-left: -2vh;
-  }
-  
-  .timeline-item {
-    margin-bottom: 30px;
-    padding-left: 0;
-    transition: transform 0.3s ease;
-  }
-  
-  .timeline-item:hover {
-    transform: translateX(10px);
-  }
-  
-  .timeline-date {
-    color: var(--terminal-text);
-    font-weight: 600;
-    display: inline-block;
-    width: 120px;
-  }
-  
-  .timeline-content {
-    display: inline-block;
-    width: calc(100% - 140px);
-  }
-  
-  .timeline-title {
-    color: var(--terminal-accent);
-    font-weight: 600;
-    margin-bottom: 5px;
-    text-decoration: underline;
-    transition: all 0.3s ease;
-  }
-  
-  .timeline-title:hover {
-    text-shadow: 0 0 10px var(--terminal-accent);
-  }
-  
-  .timeline-description {
-    color: var(--terminal-secondary);
-    margin-bottom: 10px;
-    line-height: 1.5;
-  }
-  
+
+  margin-bottom: 40px;
+  margin-left: -2vh;
+
+}
+
+.timeline-item {
+
+  margin-bottom: 30px;
+  margin-left: -40px;
+  padding-left: 0;
+  transition: transform 0.3s ease;
+
+}
+
+.timeline-item:hover {
+
+  transform: translateX(10px);
+
+}
+
+.timeline-date {
+
+  color: var(--terminal-text);
+  font-weight: 600;
+  font-size: 1.4em; /* Increased date size */
+  display: block; /* Changed from inline-block to block */
+  width: 100%; /* Changed from 120px to 100% */
+  margin-bottom: 25px; /* Larger gap below date */
+
+}
+
+.timeline-content {
+
+  display: block; /* Changed from inline-block to block */
+  width: 100%; /* Changed from calc(100% - 140px) to 100% */
+  margin-left: 0; 
+  padding-left: 0; 
+
+}
+
+.timeline-title {
+
+  color: var(--terminal-accent);
+  font-weight: 600;
+  font-size: 1.2em; /* Added title size */
+  margin-bottom: 20px; /* Larger gap below title */
+  margin-left: -40px;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+
+}
+
+.timeline-title:hover {
+
+  text-shadow: 0 0 10px var(--terminal-accent);
+
+}
+
+.timeline-description {
+
+  color: var(--terminal-secondary);
+  font-size: 1.1em; /* Increased description size */
+  margin-bottom: 35px; /* Larger gap below description */
+  margin-left: 0;
+  padding-left: 0;
+  line-height: 1.5;
+
+}

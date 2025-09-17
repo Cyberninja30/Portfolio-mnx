@@ -569,6 +569,22 @@ body {
   border-top: 1px solid var(--terminal-border);
 }
 
+.connect-title {
+  text-align: right !important;
+  margin-right: 520px;
+  margin-left: auto;
+  display: block;
+  width: fit-content;
+}
+
+.connect-underline {
+  text-align: right !important;
+  margin-right: 520px;
+  margin-left: auto;
+  display: block;
+  width: fit-content;
+}
+
 .social-links {
   display: flex;
   justify-content: center;

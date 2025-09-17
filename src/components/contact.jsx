@@ -1,8 +1,8 @@
 const Contact = () => {
     return (
       <section id="contact" className="connect-section">
-        <h2 className="section-title glitch-text" data-text="Let's Connect">Let's Connect</h2>
-        <div className="section-underline">===============</div>
+        <h2 className="section-title connect-title glitch-text" data-text="Let's Connect!!">Let's Connect!!</h2>
+        <div className="section-underline connect-underline">=================</div>
         <div className="social-links">
           <a href="https://github.com/Cyberninja30" target="_blank" rel="noopener noreferrer">Github</a>
           <span style={{ color: 'var(--terminal-muted)' }}>·</span>

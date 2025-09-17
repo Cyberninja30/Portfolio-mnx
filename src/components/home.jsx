@@ -146,7 +146,7 @@ const Home = () => {
         <div className="profile-section">
           <img src={img} alt="Cybersecurity Enthusiast" className="profile-image" />
           <div className="profile-info">
-            <p>Hi, I am <strong className="pulse-glow">Moinak Niyogi</strong>. I love to learn new things and build cool stuff.</p>
+            <p>GM folks!!, I am <strong className="pulse-glow">Moinak Niyogi</strong>. I love to learn new things and build cool stuff.</p>
             <br />
             <p>Intern @<strong className="pulse-glow">Gurugram Police Cyber Cell</strong> </p>
             <p>Secretary & RD Lead @<strong className="pulse-glow">Association for Cyber Security</strong></p>

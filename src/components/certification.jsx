@@ -39,7 +39,7 @@ const Certifications = () => {
   ];
 
   return (
-    <section id="certifications">
+    <section id="achievements">
       <h2 className="section-title glitch-text" data-text="Certifications & Achievements">
         Certifications & Achievements
       </h2>
